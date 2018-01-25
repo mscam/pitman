@@ -1,0 +1,4 @@
+[flake8]
+ignore =
+max-line-length = 84
+exclude = tests/*,env
