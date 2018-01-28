@@ -53,4 +53,9 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Topic :: Software Development',
     ],
+    entry_points={
+        'console_scripts': [
+            'pitman = pitman.__main__:main'
+        ]
+    }
 )
